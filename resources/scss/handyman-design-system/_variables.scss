@@ -36,16 +36,16 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #5F60B9 !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
-$red:     #eb5757 !default;
-$orange:  #faa938 !default;
-$yellow:  #ff9302 !default;
-$green:   #219653 !default;
-$teal:    #1C1F34 !default;
-$cyan:    #08B1BA !default;
+$blue:    #000000 !default;  // Changed to black
+$indigo:  #6c757d !default;  // Changed to gray
+$purple:  #495057 !default;  // Changed to dark gray
+$pink:    #adb5bd !default;  // Changed to light gray
+$red:     #000000 !default;  // Changed to black
+$orange:  #6c757d !default;  // Changed to gray
+$yellow:  #ced4da !default;  // Changed to light gray
+$green:   #343a40 !default;  // Changed to dark gray
+$teal:    #000000 !default;  // Changed to black
+$cyan:    #6c757d !default;  // Changed to gray
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -298,12 +298,12 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $teal !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
+$primary:       #000000 !default;  // Changed to black
+$secondary:     #6c757d !default;  // Changed to gray
+$success:       #343a40 !default;  // Changed to dark gray
+$info:          #6c757d !default;  // Changed to gray
+$warning:       #ced4da !default;  // Changed to light gray
+$danger:        #000000 !default;  // Changed to black
 $light:         $gray-300 !default;
 $dark:          $black !default;
 $gray:          $gray-600 !default;
@@ -439,8 +439,8 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-text-align:           null !default;
-$body-color:                #727272 !default;
-$body-bg:                   #fff !default;
+$body-color:                #000000 !default;  // Changed to black
+$body-bg:                   #ffffff !default;  // Changed to white
 
 $body-secondary-color:      rgba($body-color, .75) !default;
 $body-secondary-bg:         $gray-200 !default;
@@ -454,10 +454,10 @@ $body-emphasis-color:       $black !default;
 //
 // Style anchor elements.
 
-$link-color:                              $primary !default;
+$link-color:                              #000000 !default;  // Changed to black
 $link-decoration:                         none !default;
 $link-shade-percentage:                   15% !default;
-$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-color:                        #6c757d !default;  // Changed to gray for hover
 $link-hover-decoration:                   null !default;
 
 $stretched-link-pseudo-element:           after !default;
@@ -659,7 +659,7 @@ $headings-font-family:        $font-family-monospace !default;
 $headings-font-style:         null !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.3 !default;
-$headings-color:              $teal !default;
+$headings-color:              #000000 !default;  // Changed to black
 // scss-docs-end headings-variables
 
 // scss-docs-start display-headings
