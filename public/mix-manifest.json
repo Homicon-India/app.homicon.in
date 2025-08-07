@@ -1,6 +1,7 @@
 {
     "/js/backend-bundle.min.js": "/js/backend-bundle.min.js",
     "/js/landing-app.min.js": "/js/landing-app.min.js",
+    "/js/urban-company-animations.min.js": "/js/urban-company-animations.min.js",
     "/css/backend-bundle.min.css": "/css/backend-bundle.min.css",
     "/css/backend.css": "/css/backend.css",
     "/css/landing-page-rtl.min.css": "/css/landing-page-rtl.min.css",

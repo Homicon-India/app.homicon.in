@@ -27,6 +27,7 @@ mix.alias({
 
 
 mix.js('resources/js/app.js', 'public/js/landing-app.min.js').vue()
+   .js('resources/js/urban-company-animations.js', 'public/js/urban-company-animations.min.js')
    .sass('resources/scss/handyman.scss','public/css/landing-page.min.css')
    .sass('resources/scss/rtl.scss','public/css/landing-page-rtl.min.css')
    .sass('resources/scss/custom.scss','public/css/landing-page-custom.min.css')

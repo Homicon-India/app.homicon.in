@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Company Style UI Demo - Handyman Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/landing-page-custom.min.css" rel="stylesheet">
+    <style>
+        /* Demo specific styles */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Urban Company Style Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-urban fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <strong>Handyman</strong><span class="brand-highlight">Pro</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-urban-outline ms-2" href="#book">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Urban Company Style Hero Section -->
+    <section id="home" class="hero-urban">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="hero-title scroll-animate">
+                        Home services at your 
+                        <span class="highlight">doorstep</span>
+                    </h1>
+                    <p class="hero-subtitle scroll-animate">
+                        Professional, reliable, and affordable home services. Book trusted professionals for all your household needs with just a few clicks.
+                    </p>
+                    <div class="hero-search scroll-animate">
+                        <form class="d-flex">
+                            <input class="form-control" type="search" placeholder="What service do you need?" aria-label="Search">
+                            <button class="search-btn" type="submit">
+                                <i class="fas fa-search me-2"></i>Search
+                            </button>
+                        </form>
+                    </div>
+                    <div class="mt-4 scroll-animate">
+                        <button class="btn btn-urban-primary me-3 ripple">
+                            <i class="fas fa-play me-2"></i>Get Started
+                        </button>
+                        <button class="btn btn-urban-outline ripple">
+                            <i class="fas fa-phone me-2"></i>Call Now
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image scroll-animate">
+                        <img src="https://via.placeholder.com/600x400/f8f9fa/000000?text=Professional+Services" 
+                             alt="Professional Services" 
+                             class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories Grid -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5 scroll-animate">
+                <h2 class="display-5 fw-bold">Popular Services</h2>
+                <p class="lead text-muted">Choose from our wide range of professional services</p>
+            </div>
+            
+            <div class="category-grid-urban">
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="category-title">Plumbing</h3>
+                    <p class="category-count">50+ professionals</p>
+                </div>
+                
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="category-title">Electrical</h3>
+                    <p class="category-count">35+ professionals</p>
+                </div>
+                
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3 class="category-title">Painting</h3>
+                    <p class="category-count">40+ professionals</p>
+                </div>
+                
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3 class="category-title">Cleaning</h3>
+                    <p class="category-count">60+ professionals</p>
+                </div>
+                
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3 class="category-title">AC Service</h3>
+                    <p class="category-count">25+ professionals</p>
+                </div>
+                
+                <div class="category-item scroll-animate">
+                    <div class="category-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3 class="category-title">Furniture</h3>
+                    <p class="category-count">30+ professionals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5 scroll-animate">
+                <h2 class="display-5 fw-bold">Featured Services</h2>
+                <p class="lead text-muted">Most booked services this month</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card-modern scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3 class="service-title">Emergency Plumbing</h3>
+                        <p class="service-description">
+                            24/7 emergency plumbing services for all your urgent needs. Professional plumbers available round the clock.
+                        </p>
+                        <div class="service-price">
+                            <span>Starting at $49</span>
+                            <span class="price-label">per hour</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card-modern scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="service-title">Electrical Repair</h3>
+                        <p class="service-description">
+                            Licensed electricians for safe and reliable electrical work. From repairs to installations.
+                        </p>
+                        <div class="service-price">
+                            <span>Starting at $65</span>
+                            <span class="price-label">per hour</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card-modern scroll-animate">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="service-title">Home Cleaning</h3>
+                        <p class="service-description">
+                            Professional home cleaning services with eco-friendly products. Deep cleaning and regular maintenance.
+                        </p>
+                        <div class="service-price">
+                            <span>Starting at $35</span>
+                            <span class="price-label">per hour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5 scroll-animate">
+                <button class="btn btn-urban-primary btn-lg ripple">
+                    <i class="fas fa-th-large me-2"></i>View All Services
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-urban">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-item">
+                        <span class="stats-number" data-count="10000">0</span>
+                        <div class="stats-label">Happy Customers</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-item">
+                        <span class="stats-number" data-count="500">0</span>
+                        <div class="stats-label">Professionals</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-item">
+                        <span class="stats-number" data-count="50000">0</span>
+                        <div class="stats-label">Services Completed</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stats-item">
+                        <span class="stats-number" data-count="25">0</span>
+                        <div class="stats-label">Cities Covered</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-urban">
+        <div class="container">
+            <div class="text-center mb-5 scroll-animate">
+                <h2 class="display-5 fw-bold">What Our Customers Say</h2>
+                <p class="lead text-muted">Real reviews from real customers</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card scroll-animate">
+                        <div class="testimonial-text">
+                            The plumber arrived on time and fixed my kitchen sink perfectly. Professional service and fair pricing. Highly recommended!
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/60x60/e9ecef/000000?text=JS" alt="John Smith" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">John Smith</div>
+                                <div class="author-role">Homeowner</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card scroll-animate">
+                        <div class="testimonial-text">
+                            Amazing cleaning service! They transformed my apartment and used eco-friendly products. Will definitely book again.
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/60x60/e9ecef/000000?text=MJ" alt="Maria Johnson" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">Maria Johnson</div>
+                                <div class="author-role">Apartment Owner</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card scroll-animate">
+                        <div class="testimonial-text">
+                            Quick electrical repair service. The electrician was knowledgeable and solved the issue in no time. Great experience!
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/60x60/e9ecef/000000?text=DB" alt="David Brown" class="author-avatar">
+                            <div class="author-info">
+                                <div class="author-name">David Brown</div>
+                                <div class="author-role">Business Owner</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 scroll-animate">
+                    <h2 class="display-6 fw-bold mb-3">Ready to get started?</h2>
+                    <p class="lead text-muted mb-0">Book your service today and experience the difference of professional home services.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end scroll-animate">
+                    <button class="btn btn-urban-primary btn-lg ripple">
+                        <i class="fas fa-calendar-check me-2"></i>Book Service Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-urban">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 footer-section">
+                    <h3 class="footer-title">HandymanPro</h3>
+                    <p class="text-muted">Professional home services at your doorstep. Trusted, reliable, and affordable solutions for all your household needs.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Plumbing</a></li>
+                        <li><a href="#">Electrical</a></li>
+                        <li><a href="#">Cleaning</a></li>
+                        <li><a href="#">Painting</a></li>
+                        <li><a href="#">AC Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope me-2"></i> hello@handymanpro.com</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> 123 Service St, City, State 12345</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 HandymanPro. All rights reserved. | Designed with ❤️ for better home services</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/urban-company-animations.min.js"></script>
+</body>
+</html>
